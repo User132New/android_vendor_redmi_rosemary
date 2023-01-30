@@ -2567,7 +2567,6 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
-    mediatek-wfo-legacy \
     com.fingerprints.extension \
     android.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \

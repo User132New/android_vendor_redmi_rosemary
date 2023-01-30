@@ -112,12 +112,6 @@ dex_import {
 }
 
 dex_import {
-	name: "mediatek-wfo-legacy",
-	owner: "redmi",
-	jars: ["proprietary/framework/mediatek-wfo-legacy.jar"],
-}
-
-dex_import {
 	name: "com.fingerprints.extension",
 	owner: "redmi",
 	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
