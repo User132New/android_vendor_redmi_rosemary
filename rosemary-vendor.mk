@@ -290,6 +290,9 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/rosemary/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/redmi/rosemary/proprietary/vendor/etc/cit_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cit_config.xml \
     vendor/redmi/rosemary/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
+    vendor/redmi/rosemary/proprietary/vendor/etc/dsi_panel_k7_38_0c_0a_fhdp_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_panel_k7_38_0c_0a_fhdp_video_mi.xml \
+    vendor/redmi/rosemary/proprietary/vendor/etc/dsi_panel_k7_44_06_0b_fhdp_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_panel_k7_44_06_0b_fhdp_video_mi.xml \
+    vendor/redmi/rosemary/proprietary/vendor/etc/dsi_panel_k7_44_0e_0b_fhdp_video_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_panel_k7_44_0e_0b_fhdp_video_mi.xml \
     vendor/redmi/rosemary/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/redmi/rosemary/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/redmi/rosemary/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
