@@ -63,6 +63,30 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "HotwordEnrollmentOKGoogleCORTEXM4",
+	owner: "redmi",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "HotwordEnrollmentXGoogleCORTEXM4",
+	owner: "redmi",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleCORTEXM4/HotwordEnrollmentXGoogleCORTEXM4.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
 dex_import {
 	name: "mediatek-common",
 	owner: "redmi",
@@ -116,6 +140,13 @@ dex_import {
 	owner: "redmi",
 	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
 	soc_specific: true,
+}
+
+dex_import {
+	name: "com.android.hotwordenrollment.common.util",
+	owner: "redmi",
+	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
+	system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
